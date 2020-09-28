@@ -106,3 +106,13 @@ function logAdEcho<T>(val: T) {
 }
 
 logAdEcho<string>('Hi there!').split(' ');
+
+// Commands to run it
+
+//one file:  tsc name-of-file.ts
+
+// all files:  npx tsc
+
+// to run file all the time : tsc name-of-file.ts -w
+
+// to manage all the files( creates a package.json): tsc -- init and after that tsc -w
