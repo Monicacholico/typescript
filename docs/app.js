@@ -1,3 +1,4 @@
+"use strict";
 // class User {
 //   name: string;
 //   age: number;
@@ -38,6 +39,9 @@ var Admin = /** @class */ (function (_super) {
 var num1Input = document.getElementById('num1');
 var num2Input = document.getElementById('num2');
 var buttonElement = document.querySelector('button');
+// if (!buttonElement) {
+//   buttonElement
+// }
 function add(a, b) {
     return a + b;
 }
